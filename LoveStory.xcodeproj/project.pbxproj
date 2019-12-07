@@ -9,23 +9,59 @@
 /* Begin PBXBuildFile section */
 		4B2FC9542374495F0012EBDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC9532374495F0012EBDB /* AppDelegate.swift */; };
 		4B2FC9562374495F0012EBDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC9552374495F0012EBDB /* SceneDelegate.swift */; };
-		4B2FC9582374495F0012EBDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC9572374495F0012EBDB /* ViewController.swift */; };
 		4B2FC95B2374495F0012EBDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FC9592374495F0012EBDB /* Main.storyboard */; };
 		4B2FC95E2374495F0012EBDB /* LoveStory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC95C2374495F0012EBDB /* LoveStory.xcdatamodeld */; };
 		4B2FC960237449600012EBDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FC95F237449600012EBDB /* Assets.xcassets */; };
 		4B2FC963237449600012EBDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FC961237449600012EBDB /* LaunchScreen.storyboard */; };
+		4B2FC96B237449FB0012EBDB /* LoveStoryHomePageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC96A237449FB0012EBDB /* LoveStoryHomePageTableViewController.swift */; };
+		4B2FC96D23744A850012EBDB /* HomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC96C23744A850012EBDB /* HomePageTableViewCell.swift */; };
+		4B2FC96F237451B60012EBDB /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC96E237451B60012EBDB /* Story.swift */; };
+		4B2FC9712374584E0012EBDB /* StoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC9702374584E0012EBDB /* StoryData.swift */; };
+		4B2FC973237461710012EBDB /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2FC972237461710012EBDB /* StoryViewController.swift */; };
+		4B2FC98523770AE60012EBDB /* main-bg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B2FC98423770AE60012EBDB /* main-bg.gif */; };
+		4B68723323893E480010455C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68723223893E480010455C /* MenuViewController.swift */; };
+		4B6872392393C7930010455C /* 1000顆星的約定.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B6872382393C7930010455C /* 1000顆星的約定.txt */; };
+		4B6872442393D50C0010455C /* 可以嫁給你嗎.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723A2393D50B0010455C /* 可以嫁給你嗎.txt */; };
+		4B6872452393D50C0010455C /* 錯過一時，錯過一生.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723B2393D50B0010455C /* 錯過一時，錯過一生.txt */; };
+		4B6872462393D50C0010455C /* 一只可愛的毛毛熊.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723C2393D50B0010455C /* 一只可愛的毛毛熊.txt */; };
+		4B6872472393D50C0010455C /* 愛是不保留.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723D2393D50B0010455C /* 愛是不保留.txt */; };
+		4B6872482393D50C0010455C /* 遲來的愛.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723E2393D50B0010455C /* 遲來的愛.txt */; };
+		4B6872492393D50C0010455C /* 男孩的偉大.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B68723F2393D50B0010455C /* 男孩的偉大.txt */; };
+		4B68724A2393D50C0010455C /* 開不了口的感情.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B6872402393D50B0010455C /* 開不了口的感情.txt */; };
+		4B68724B2393D50C0010455C /* 可不可以愛我一分鐘就好.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B6872412393D50B0010455C /* 可不可以愛我一分鐘就好.txt */; };
+		4B68724C2393D50C0010455C /* 如果有人這樣愛我.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B6872422393D50B0010455C /* 如果有人這樣愛我.txt */; };
+		4B68724D2393D50C0010455C /* 我的前女友居然和一個男生來到遊樂場.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4B6872432393D50C0010455C /* 我的前女友居然和一個男生來到遊樂場.txt */; };
+		4B68724F2393D8920010455C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68724E2393D8920010455C /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B2FC9502374495F0012EBDB /* LoveStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2FC9532374495F0012EBDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B2FC9552374495F0012EBDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4B2FC9572374495F0012EBDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B2FC95A2374495F0012EBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B2FC95D2374495F0012EBDB /* LoveStory.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoveStory.xcdatamodel; sourceTree = "<group>"; };
 		4B2FC95F237449600012EBDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B2FC962237449600012EBDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B2FC964237449600012EBDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2FC96A237449FB0012EBDB /* LoveStoryHomePageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveStoryHomePageTableViewController.swift; sourceTree = "<group>"; };
+		4B2FC96C23744A850012EBDB /* HomePageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewCell.swift; sourceTree = "<group>"; };
+		4B2FC96E237451B60012EBDB /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		4B2FC9702374584E0012EBDB /* StoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryData.swift; sourceTree = "<group>"; };
+		4B2FC972237461710012EBDB /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		4B2FC98423770AE60012EBDB /* main-bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "main-bg.gif"; sourceTree = "<group>"; };
+		4B68723223893E480010455C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		4B6872382393C7930010455C /* 1000顆星的約定.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "1000顆星的約定.txt"; sourceTree = "<group>"; };
+		4B68723A2393D50B0010455C /* 可以嫁給你嗎.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "可以嫁給你嗎.txt"; sourceTree = "<group>"; };
+		4B68723B2393D50B0010455C /* 錯過一時，錯過一生.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "錯過一時，錯過一生.txt"; sourceTree = "<group>"; };
+		4B68723C2393D50B0010455C /* 一只可愛的毛毛熊.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "一只可愛的毛毛熊.txt"; sourceTree = "<group>"; };
+		4B68723D2393D50B0010455C /* 愛是不保留.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "愛是不保留.txt"; sourceTree = "<group>"; };
+		4B68723E2393D50B0010455C /* 遲來的愛.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "遲來的愛.txt"; sourceTree = "<group>"; };
+		4B68723F2393D50B0010455C /* 男孩的偉大.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "男孩的偉大.txt"; sourceTree = "<group>"; };
+		4B6872402393D50B0010455C /* 開不了口的感情.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "開不了口的感情.txt"; sourceTree = "<group>"; };
+		4B6872412393D50B0010455C /* 可不可以愛我一分鐘就好.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "可不可以愛我一分鐘就好.txt"; sourceTree = "<group>"; };
+		4B6872422393D50B0010455C /* 如果有人這樣愛我.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "如果有人這樣愛我.txt"; sourceTree = "<group>"; };
+		4B6872432393D50C0010455C /* 我的前女友居然和一個男生來到遊樂場.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "我的前女友居然和一個男生來到遊樂場.txt"; sourceTree = "<group>"; };
+		4B68724E2393D8920010455C /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +94,66 @@
 		4B2FC9522374495F0012EBDB /* LoveStory */ = {
 			isa = PBXGroup;
 			children = (
+				4B2FC977237461B10012EBDB /* Stories */,
+				4B2FC976237461910012EBDB /* Model */,
+				4B2FC9752374618E0012EBDB /* View */,
+				4B2FC9742374617F0012EBDB /* Controller */,
 				4B2FC9532374495F0012EBDB /* AppDelegate.swift */,
 				4B2FC9552374495F0012EBDB /* SceneDelegate.swift */,
-				4B2FC9572374495F0012EBDB /* ViewController.swift */,
-				4B2FC9592374495F0012EBDB /* Main.storyboard */,
 				4B2FC95F237449600012EBDB /* Assets.xcassets */,
 				4B2FC961237449600012EBDB /* LaunchScreen.storyboard */,
 				4B2FC964237449600012EBDB /* Info.plist */,
 				4B2FC95C2374495F0012EBDB /* LoveStory.xcdatamodeld */,
 			);
 			path = LoveStory;
+			sourceTree = "<group>";
+		};
+		4B2FC9742374617F0012EBDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B68723223893E480010455C /* MenuViewController.swift */,
+				4B2FC96A237449FB0012EBDB /* LoveStoryHomePageTableViewController.swift */,
+				4B2FC972237461710012EBDB /* StoryViewController.swift */,
+				4B68724E2393D8920010455C /* AboutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B2FC9752374618E0012EBDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FC9592374495F0012EBDB /* Main.storyboard */,
+				4B2FC96C23744A850012EBDB /* HomePageTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B2FC976237461910012EBDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FC96E237451B60012EBDB /* Story.swift */,
+				4B2FC9702374584E0012EBDB /* StoryData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B2FC977237461B10012EBDB /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				4B2FC98423770AE60012EBDB /* main-bg.gif */,
+				4B6872382393C7930010455C /* 1000顆星的約定.txt */,
+				4B68723C2393D50B0010455C /* 一只可愛的毛毛熊.txt */,
+				4B6872432393D50C0010455C /* 我的前女友居然和一個男生來到遊樂場.txt */,
+				4B6872412393D50B0010455C /* 可不可以愛我一分鐘就好.txt */,
+				4B68723A2393D50B0010455C /* 可以嫁給你嗎.txt */,
+				4B6872422393D50B0010455C /* 如果有人這樣愛我.txt */,
+				4B68723D2393D50B0010455C /* 愛是不保留.txt */,
+				4B68723F2393D50B0010455C /* 男孩的偉大.txt */,
+				4B68723E2393D50B0010455C /* 遲來的愛.txt */,
+				4B68723B2393D50B0010455C /* 錯過一時，錯過一生.txt */,
+				4B6872402393D50B0010455C /* 開不了口的感情.txt */,
+			);
+			path = Stories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +215,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2FC963237449600012EBDB /* LaunchScreen.storyboard in Resources */,
+				4B6872452393D50C0010455C /* 錯過一時，錯過一生.txt in Resources */,
+				4B6872462393D50C0010455C /* 一只可愛的毛毛熊.txt in Resources */,
+				4B6872442393D50C0010455C /* 可以嫁給你嗎.txt in Resources */,
+				4B2FC98523770AE60012EBDB /* main-bg.gif in Resources */,
+				4B6872472393D50C0010455C /* 愛是不保留.txt in Resources */,
+				4B68724A2393D50C0010455C /* 開不了口的感情.txt in Resources */,
+				4B68724B2393D50C0010455C /* 可不可以愛我一分鐘就好.txt in Resources */,
+				4B68724D2393D50C0010455C /* 我的前女友居然和一個男生來到遊樂場.txt in Resources */,
+				4B6872482393D50C0010455C /* 遲來的愛.txt in Resources */,
 				4B2FC960237449600012EBDB /* Assets.xcassets in Resources */,
+				4B6872492393D50C0010455C /* 男孩的偉大.txt in Resources */,
+				4B68724C2393D50C0010455C /* 如果有人這樣愛我.txt in Resources */,
+				4B6872392393C7930010455C /* 1000顆星的約定.txt in Resources */,
 				4B2FC95B2374495F0012EBDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +239,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B2FC9582374495F0012EBDB /* ViewController.swift in Sources */,
+				4B2FC96D23744A850012EBDB /* HomePageTableViewCell.swift in Sources */,
+				4B2FC96B237449FB0012EBDB /* LoveStoryHomePageTableViewController.swift in Sources */,
 				4B2FC95E2374495F0012EBDB /* LoveStory.xcdatamodeld in Sources */,
 				4B2FC9542374495F0012EBDB /* AppDelegate.swift in Sources */,
+				4B68723323893E480010455C /* MenuViewController.swift in Sources */,
+				4B2FC973237461710012EBDB /* StoryViewController.swift in Sources */,
+				4B2FC9712374584E0012EBDB /* StoryData.swift in Sources */,
 				4B2FC9562374495F0012EBDB /* SceneDelegate.swift in Sources */,
+				4B68724F2393D8920010455C /* AboutViewController.swift in Sources */,
+				4B2FC96F237451B60012EBDB /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
